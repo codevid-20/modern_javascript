@@ -1,12 +1,17 @@
 var moment = require('moment');
 var math = require('mathjs');
 
+var name = "Bobert";
+var date = "tomorrow";
 
-console.log(math.evaluate('9 / 3 + 2i'));
+console.log(`${name}, how are you ${date}`);
+
+
+console.log(math.evaluate('13 + 12'));
 
 console.log('helloooooooooooo from javascript');
 
 
 console.log(moment().format('dddd'));
 
-console.log(moment("19941031", "YYYYMMDD").fromNow());
+console.log(moment("19941030", "YYYYMMDD").fromNow());
