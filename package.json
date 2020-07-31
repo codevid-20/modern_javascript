@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/codevid-20/modern_javascript#readme",
   "dependencies": {
+    "mathjs": "^7.1.0",
     "moment": "^2.27.0"
   },
   "devDependencies": {
