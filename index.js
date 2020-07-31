@@ -1,7 +1,7 @@
 var moment = require('moment');
 var math = require('mathjs');
 
-var name = "Bobert";
+var name = "James";
 var date = "tomorrow";
 
 console.log(`${name}, how are you ${date}`);
@@ -14,4 +14,4 @@ console.log('helloooooooooooo from javascript');
 
 console.log(moment().format('dddd'));
 
-console.log(moment("19941030", "YYYYMMDD").fromNow());
+console.log(moment("19901030", "YYYYMMDD").fromNow());
